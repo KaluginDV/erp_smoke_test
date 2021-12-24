@@ -1,3 +1,4 @@
+//for erp smole test only
 @Library("shared-libraries")
 import io.libs.SqlUtils
 import io.libs.ProjectHelpers
@@ -11,7 +12,7 @@ def restoreTasks = [:]
 def dropDbTasks = [:]
 def createDbTasks = [:]
 def runHandlers1cTasks = [:]
-def updateDbTasks = [:]
+def updateDbTasks = [:] 
 
 pipeline {
 
