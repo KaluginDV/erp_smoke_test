@@ -1,4 +1,4 @@
-//for erp smole test only
+//for erp smoke test only
 @Library("shared-libraries")
 import io.libs.SqlUtils
 import io.libs.ProjectHelpers
