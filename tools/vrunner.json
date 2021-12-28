@@ -13,8 +13,8 @@
         "--additional": "/DisplayAllFunctions /L ru"
     },
     "xunit": {
-        "--xddConfig": "./tools/json/xUnitParams.json",
-        "--reportsxunit": "ГенераторОтчетаAllureXML{out/smoke/allure.json}",
+        "--xddConfig": "./tools/json/smoke.json",
+        "--reportsxunit": "ГенераторОтчетаAllureXML{$workspaceRoot/build/out/allure}",
         //"--reportsxunit": "ГенераторОтчетаJUnitXML{build/smoke/junit/xddreport.xml};ГенераторОтчетаAllureXML{build/smoke/allure/allure-testsuite.xml}",
         //"--xddExitCodePath": "build/xddExitCodePath.txt",
         "--workspace": ".",
