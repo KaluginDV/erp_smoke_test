@@ -11,5 +11,13 @@
         "--workspace": ".",
         "--pathvanessa": ".",
         "--additional": "/DisplayAllFunctions /L ru"
-    }
+    },
+    "xunit": {
+        "--xddConfig": "tools/JSON/smoke.json",
+        "testsPath": "tests/smoke",
+        "--reportsxunit": "ГенераторОтчетаJUnitXML{build/smoke/junit/xddreport.xml};ГенераторОтчетаAllureXML{build/smoke/allure/allure-testsuite.xml}",
+        "--xddExitCodePath": "build/xddExitCodePath.txt",
+        "--testclient": "Vanessa:12345:48223",
+        "--testclient-additional" : "/iTaxi"
+    }    
 }
