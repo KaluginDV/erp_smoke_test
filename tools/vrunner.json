@@ -20,7 +20,7 @@
         "--workspace": ".",
         "--db-user": "Vanessa",
         "--db-pwd": "12345",
-        "--testclient": "Vanessa:12345:48223",
+        "--testclient": "Vanessa:12345:2538",
         "--pathxunit": "$addRoot/xddTestRunner.epf",
         "testsPath": "./tests"
     }      
