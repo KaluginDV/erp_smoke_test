@@ -13,7 +13,7 @@
         "--additional": "/DisplayAllFunctions /L ru"
     },
     "xunit": {
-        "--xddConfig": "./tools/json/smoke.json",
+        "--xddConfig": "tools/json/smoke.json",
         "--reportsxunit": "ГенераторОтчетаAllureXML{$workspaceRoot/build/out/allure}",
         //"--reportsxunit": "ГенераторОтчетаJUnitXML{build/smoke/junit/xddreport.xml};ГенераторОтчетаAllureXML{build/smoke/allure/allure-testsuite.xml}",
         //"--xddExitCodePath": "build/xddExitCodePath.txt",
@@ -22,6 +22,6 @@
         "--db-pwd": "12345",
         "--testclient": "Vanessa:12345:2538",
         "--pathxunit": "$addRoot/xddTestRunner.epf",
-        "testsPath": "./tests"
+        "testsPath": "tests"
     }      
 }
